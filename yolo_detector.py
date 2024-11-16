@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load YOLO model
-model = YOLO("D:\Medical_Application\Final_Project\yolov11s_trained.pt")
+model = YOLO("X:\WORK\GIT\MRI_Analysis\yolov11s_trained.pt")
 
 # Mapping of class IDs to disease names
 CLASS_NAMES = {

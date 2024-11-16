@@ -13,17 +13,20 @@ A Flask-based web application for detecting brain-related diseases from medical 
 
 ## Project Structure
 
-project/
-├── static/
-│   ├── css/
-│   │   └── styles.css       # CSS for UI
-│   └── uploads/             # Folder for uploaded images
-├── templates/
-│   └── index.html           # HTML for the front-end
-├── app.py                   # Flask application
-├── yolo_detector.py         # YOLO detection logic
-├── requirements.txt         # Dependencies for the project
-└── README.md                # Project documentation
+## Project Structure
+
+- **project/**
+  - **static/**
+    - **css/**
+      - `styles.css`: CSS for UI
+    - **uploads/**: Folder for uploaded images
+  - **templates/**
+    - `index.html`: HTML for the front-end
+  - `app.py`: Flask application
+  - `yolo_detector.py`: YOLO detection logic
+  - `requirements.txt`: Dependencies for the project
+  - `README.md`: Project documentation
+
 
 ## Prerequisites
 
@@ -32,7 +35,7 @@ project/
 
 ## Getting Started
 
-# Steps to Run Locally
+## Steps to Run Locally
 
 - Clone the Repository Clone the repository from GitHub:
 
@@ -68,16 +71,8 @@ python app.py
 - Bounding boxes around detected regions.
 - Disease names and confidence scores.
 
-Example Outputs
-Input Image:
-
-Output Image:
-The output shows bounding boxes with disease names and confidence scores.
-
-Contributing
+## Contributing
 Contributions are welcome! If you find any bugs or have feature requests, feel free to:
 
-Submit an issue.
-Create a pull request.
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
