@@ -27,51 +27,47 @@ project/
 
 ## Prerequisites
 
-Python 3.8 or higher
-A YOLO-trained model
+- Python 3.8 or higher
+- A YOLO-trained model
 
 ## Getting Started
 
 # Steps to Run Locally
 
-Clone the Repository Clone the repository from GitHub:
+- Clone the Repository Clone the repository from GitHub:
 
-bash
-Copy code
+```bash
+
 git clone https://github.com/your-username/yolo-disease-detection.git
+
 cd yolo-disease-detection
-Install Dependencies Ensure you have Python installed, then install required packages:
 
-bash
-Copy code
+```
+
+ - Install Dependencies Ensure you have Python installed, then install required packages:
+
+```bash
+
 pip install -r requirements.txt
-Add Your YOLO Model Place your YOLO model (yolov11s_trained.pt) in the project directory.
 
-Run the Application Start the Flask application:
+```
 
-bash
-Copy code
+ - Run the Application Start the Flask application:
+
+```bash
+
 python app.py
-Open in Browser Open http://127.0.0.1:5000 in your browser to access the interface.
 
-Example Usage
-Upload an Image: Select an image file containing a suspected diseased region.
-View Results: The app processes the image and displays:
-Bounding boxes around detected regions.
-Disease names and confidence scores.
-Dependencies
-The application requires the following Python packages:
+```
 
-plaintext
-Copy code
-Flask==2.3.2
-ultralytics==8.0.134
-opencv-python==4.8.0.76
-These are included in the requirements.txt file. Install them using:
+### Open in Browser Open http://127.0.0.1:5000 in your browser to access the interface.
 
-bash
-Copy code
-pip install -r requirements.txt
+## Example Usage
+- Upload an Image: Select an image file containing a suspected diseased region.
+- View Results: The app processes the image and displays:
+- Bounding boxes around detected regions.
+- Disease names and confidence scores.
+
 Example Outputs
 Input Image:
 
