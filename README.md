@@ -13,8 +13,6 @@ A Flask-based web application for detecting brain-related diseases from medical 
 
 ## Project Structure
 
-## Project Structure
-
 - **project/**
   - **static/**
     - **css/**
